@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <table>
+    <tr>
+      <td colspan="7"><div id="ctrlpanel">
+        <div id="leftarrow">&lt;&lt;</div>
+        <div class="dateInput">
+          <input type="number" size="10">
+          <select id="dateEra">
+            <option value="BC">BC</option>
+            <option value="AD" selected="selected">AD</option>
+          </select>
+          -
+          <input type="number" size="2" min="1" max="12">
+        </div>
+        <div id="rightarrow">&gt;&gt;</div>
+      </div></td>
+    </tr>
+    <tr>
+      <th>Mon.</th>
+      <th>Tue.</th>
+      <th>Wed.</th>
+      <th>Thu.</th>
+      <th>Fri.</th>
+      <th>Sat.</th>
+      <th>Sun.</th>
+    </tr>
+  </table>
+
+  <script src="dateFunctions.js"></script>
+  <script src="calendar.js"></script>
+  <script src="ctrlPanel.js"></script>
+</body>
+</html>

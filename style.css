@@ -1,0 +1,30 @@
+#ctrlpanel {
+  text-align: center;
+}
+
+table {
+  width: 350px;
+}
+
+table, td, th {
+  border-collapse: collapse;
+  border: 1px solid black;
+
+  text-align: center;
+}
+
+.calendarDay {
+  width: 50px;
+}
+
+.oobDay {
+  background-color: gray;
+}
+
+.calendarDay:nth-child(7){
+  color: red;
+}
+
+#ctrlpanel > div {
+  display: inline-block;
+}
